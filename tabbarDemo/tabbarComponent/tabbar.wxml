@@ -16,7 +16,7 @@
 
 
 
-    <view wx:if="{{item.isSpecial}}" class="tabbar_nav" hover-class="none" style="color:{{tabbar.selectedColor}}" open-type="navigate" data-tabbar='{{item.isTabbar}}' data-path='{{item.pagePath}}' bindtap='_navigator'>
+    <view wx:if="{{item.isSpecial}}" class="tabbar_nav" hover-class="none" style="color:{{tabbar.selectedColor}}" open-type="navigate" data-tabbar='{{item.isTabbar}}' data-path='{{item.pagePath}}' catchtap='_navigator'>
       <view class='special-wrapper'><image class="tabbar_icon" src="{{item.iconPath}}"></image></view>
       <image class='special-text-wrapper'></image>
       <text>{{item.text}}</text>
