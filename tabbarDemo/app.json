@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/middle/middle",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "custom/index1",
+    "custom/index2"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fdb92c",
